@@ -14,5 +14,6 @@ The team members involved on the data scrapping are Brais Suarez Souto and Enriq
 ## Code remarks
 
 The code has been written and executed on `google colab`. There is a link included at the top of the code to open and execute the code on `google colab`. All the cells/chunks of the code have to be executed in order to get the desired results from the scrapper of each website.
+In order to run the code properly, please note that the data is saved on a google drive folder, you may need to change the path to your own drive or local folder.
 
 ## Files for web scrapping
