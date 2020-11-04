@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  4 NOV 2020 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  4 NOV 2020 18:07
 entering extended mode
 **./Preguntas.tex
 (Preguntas.tex
@@ -223,7 +223,10 @@ tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count196
 \l__pdf_internal_box=\box47
-) (Preguntas.aux)
+) (Preguntas.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
 \openout1 = `Preguntas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -300,18 +303,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 34.
 
-
-LaTeX Warning: Citation `td1' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `td2' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `td3' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `dd1' on page 1 undefined on input line 41.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -333,7 +324,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 98.
 
-<esquema.png, id=79, 1528.71124pt x 798.985pt>
+<esquema.png, id=86, 1528.71124pt x 798.985pt>
 File: esquema.png Graphic file (type png)
 <use esquema.png>
 Package pdftex.def Info: esquema.png  used on input line 100.
@@ -365,42 +356,29 @@ Underfull \hbox (badness 1742) in paragraph at lines 260--262
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-
-Package rerunfilecheck Warning: File `Preguntas.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Preguntas.out':
-(rerunfilecheck)             Before: 9742781009273CB2EA6A39295BE40D8B;755
-(rerunfilecheck)             After:  43C957842AF5DA5FBC1D63EB1759E0F6;740.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `Preguntas.out' has not changed.
+(rerunfilecheck)             Checksum: 43C957842AF5DA5FBC1D63EB1759E0F6;740.
  ) 
 Here is how much of TeX's memory you used:
- 6522 strings out of 479799
- 99634 string characters out of 2869723
- 410508 words of memory out of 3000000
- 23382 multiletter control sequences out of 15000+200000
- 546352 words of font info for 51 fonts, out of 3000000 for 9000
+ 6520 strings out of 479799
+ 99612 string characters out of 2869723
+ 410826 words of memory out of 3000000
+ 23381 multiletter control sequences out of 15000+200000
+ 545576 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,72p,764b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
 1440.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1200.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1200.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm1200.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Brais\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Brais\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on Preguntas.pdf (9 pages, 346868 bytes).
+0\ecti1200.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm1200.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1728.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Brais\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Brais\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on Preguntas.pdf (9 pages, 346784 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
+ 399 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
