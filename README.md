@@ -17,3 +17,20 @@ The code has been written and executed on `google colab`. There is a link includ
 In order to run the code properly, please note that the data is saved on a google drive folder, you may need to change the path to your own drive or local folder.
 
 ## Files for web scrapping
+
+The files are:
+
+* Scrapper/meneame.ipynb: Contains a scrapper for Meneame with calls to all the libraries. The scrapper is coded with Python and the library Beautiful Soup.
+* Scrapper/Reddit.ipynb: Contains a scrapper for Reddit with calls to all the libraries. The scrapper is coded with Python and the library praw.
+* Scrapper/TwitterAPIScrapper.ipynb: Contains a scrapper for Twitter with calls to all the libraries. The scrapper is coded with Python and the library tweepy.
+
+All the scrappers generate a csv file as output for further data analysis.
+
+Other libraries used:
+
+* Datetime
+* json
+* pandas
+* request
+* urllib
+* numpy
