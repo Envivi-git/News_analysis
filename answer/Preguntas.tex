@@ -1,7 +1,9 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[latin1]{inputenc}
+\usepackage{graphicx}
 \usepackage[T1]{fontenc}
 \usepackage[spanish]{babel}
+\usepackage{hyperref}
 
 \title{%
 
@@ -95,6 +97,8 @@ Se trata de tres datasets, provenientes de tres fuentes diferentes, Meneame, Twi
 
 \section[item_grafico]{Representaci\'on  gr\'afica. }
 
+\includegraphics[scale = 0.25]{esquema.png}
+
 \section[item_contenido]{Contenido}
 
 \subsection{Meneame}
@@ -162,9 +166,9 @@ Descripci\'on de los atributos:
 \end{itemize}
 
 
-\subsection{Tiwtter}
+\subsection{Twitter}
 
-El scrapper de tiwtter se utiliza para seguir la relevancia de las noticias en un medio generalista. Se usan las{\itshape tags} extra\'idas de las noticias para comprobar su relevancia. En primer paso, las tags se seleccionan manualmente y se compruebar\'a de forma manual que los twits correspondan a cierto tema. El prop\'osito final es automatizar todo el proceso, lo que presenta el desaf\'io de comprobar que ciertos twits corresponden a un tema en concreto. Sin entrar en detalles, para afrontar este desaf\'io se usar\'a redes neuronales para la identificaci\'on de {\itshape nombre-entidad} en el cuerpo de las noticias, con el fin de generar vectores de proximidad, as\'i como {\itshape contextual topic recognition}.
+El scrapper de Twitter se utiliza para seguir la relevancia de las noticias en un medio generalista. Se usan las{\itshape tags} extra\'idas de las noticias para comprobar su relevancia. En primer paso, las tags se seleccionan manualmente y se compruebar\'a de forma manual que los twits correspondan a cierto tema. El prop\'osito final es automatizar todo el proceso, lo que presenta el desaf\'io de comprobar que ciertos tweets corresponden a un tema en concreto. Sin entrar en detalles, para afrontar este desaf\'io se usar\'a redes neuronales para la identificaci\'on de {\itshape nombre-entidad} en el cuerpo de las noticias, con el fin de generar vectores de proximidad, as\'i como {\itshape contextual topic recognition}.
 
 Para el prop\'osito de esta pr\'actica se entrega el dataset correspondiente a cinco noticias, donde las {\itshape tags} se han seleccionado (manualmente), a partir de las {\itshape tags} que los usuarios de Meneame proporcionan para describir una noticia.
 
@@ -172,7 +176,19 @@ Descripci\'on del dataset:
 
 \begin{itemize}
 
-\item
+\item query: La query usada para generar el dataset.
+
+\item Tweet ID: ID del Tweet.
+
+\item Text: Texto del Tweet.
+
+\item RT Count: N\'umero de veces que el Tweet ha sido retweeteado.
+
+\item Username: Nombre de usuario del autor del Tweet.
+
+\item Likes: N\'umero de veces que el Tweet ha recibido un like.
+
+\item Created at: fecha en la que se cre\'o el Tweet.
 
 \end{itemize}
 
@@ -210,8 +226,15 @@ https://creativecommons.org/share-your-work/public-domain/cc0/
 
 \section{Dataset}
 
-Enlaces:
+Enlaces: 
 
+\begin{itemize}
+
+\item Aqu\'i pueden encontrar el link a los datasets de Reddit y Meneame, el dataset de Twitter no se ha subido a Zenodo ya que tiene un c\'aracter de an\'alisis mas espec\'ifico \href{https://zenodo.org/record/4243130}{Link}.
+
+\item Aqu\'i pueden encontrar el link al repositorio de GitHub d\'onde se han subido los \'ultimos datasets generados. \href{https://zenodo.org/record/4243130}{Link}.
+
+\end{itemize}
 
 \begin{thebibliography}{9}
 
